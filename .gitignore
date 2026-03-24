@@ -1,0 +1,37 @@
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+.npm/
+
+# Java / Maven / Gradle
+target/
+build/
+.gradle/
+*.jar
+*.war
+*.class
+
+# Environment files
+.env
+.env.local
+.env.*
+
+# Temporary files
+*.sw?
+*~
