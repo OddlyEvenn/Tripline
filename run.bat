@@ -7,11 +7,11 @@ cd /d "%~dp0"
 
 :: Start Backend
 echo Starting Backend (Spring Boot)...
-start "Tripline Backend" cmd /c "cd Tripline_Backend && mvn spring-boot:run"
+start "backend" cmd /c "cd backend && mvn spring-boot:run"
 
 :: Start Frontend
 echo Starting Frontend (Vite)...
-start "Tripline Frontend" cmd /c "cd Tripline_Frontend && npm run dev"
+start "frontend" cmd /c "cd frontend && npm run dev"
 
 echo Successfully initiated startup.
 echo Check the new terminal windows for progress.
